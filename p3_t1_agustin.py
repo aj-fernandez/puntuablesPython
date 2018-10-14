@@ -29,4 +29,4 @@ def myswitch(ch):
 
     n = int(raw_input("Introduzca el numero del DNI"))
 
-print "The result for inp is : ", myswitch(n)) basuraaaaaaaa!!!
+print "The result for inp is : ", # myswitch(n)) basuraaaaaaaa!!!, i will continue to v2 
