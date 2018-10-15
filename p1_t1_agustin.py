@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 myDict = dict()
 letras = myDict.keys()

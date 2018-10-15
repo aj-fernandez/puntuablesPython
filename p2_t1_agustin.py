@@ -7,7 +7,7 @@ vow_lst = ["a","e","i","o","u"]
 con_lst = ["b","c","d","f","g","h","j","k","l","m","n","p","q","r","s","t","v"\
 ,"w","x","y","z"]
 
-parag = raw_input("Enter a paragraph: ")
+parag = str(input("Enter a paragraph: "))
 parag = parag.lower()
 
 while i < len(parag):
@@ -17,6 +17,6 @@ while i < len(parag):
         con_cnt += 1
     i += 1
 
-print "Number of words: %d\nVowels: %d\nConsonant: %d\nOther characters \
+print ("Number of words: %d\nVowels: %d\nConsonant: %d\nOther characters \
 and spaces: %d" % (len(parag.split()), (vow_cnt), (con_cnt), (len(parag) -\
- (vow_cnt + con_cnt)))
+ (vow_cnt + con_cnt))))
