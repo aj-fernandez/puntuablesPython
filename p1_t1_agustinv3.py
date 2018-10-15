@@ -1,4 +1,7 @@
-#!/usr/bin/python
+# @author: ajfernandez
+# @last_edited: 12/10/18
+# @repo: https://github.com/aj-fernandez/
+
 
 myDict = dict()
 uppercase = range(65,90)

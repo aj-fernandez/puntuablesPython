@@ -1,4 +1,7 @@
-#!/usr/bin/python
+# @author: ajfernandez
+# @last_edited: 12/10/18
+# @repo: https://github.com/aj-fernandez/
+
 
 def calDNI():
     lst = ["T","R","W","A","G","M","Y","F","P","D","X","B","N","J","Z","S","Q"\

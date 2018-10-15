@@ -1,4 +1,7 @@
-#!/usr/bin/python
+# @author: ajfernandez
+# @last_edited: 12/10/18
+# @repo: https://github.com/aj-fernandez/
+
 
 def calDNI():
     lst = ["T","R","W","A","G","M","Y","F","P","D","X","B","N","J","Z","S","Q"\
@@ -29,4 +32,4 @@ def myswitch(ch):
 
     n = int(raw_input("Introduzca el numero del DNI"))
 
-print "The result for inp is : ", # myswitch(n)) basuraaaaaaaa!!!, i will continue to v2 
+print "The result for inp is : ", # myswitch(n)) basuraaaaaaaa!!!, i will continue to v2
