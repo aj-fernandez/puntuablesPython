@@ -13,11 +13,4 @@ for j in lowercase:
 for key, value in sorted(myDict.items(), key=lambda ab: (ab[1], ab[0])):
     print (key, "-", value)
 
-
-
-#for keys in sorted(myDict):
-#    print keys, "-", myDict[keys]
-#
-#   TODO: El comentado no termina de ordenarlo bien. fix it!!            []
-#   TODO: buscar info sobre OrderedDict (modulo) y probar               [OK]
-#
+# read more about lambda functions 
