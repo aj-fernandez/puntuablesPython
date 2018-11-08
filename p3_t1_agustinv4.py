@@ -38,7 +38,7 @@ def out():
 
 def menu():
     global argument
-    print ("\n1. To generate the letter of DNI.\n2. To check NDNI letter.\n3. Exit.")
+    print ("\n1. To generate the letter of DNI.\n2. To check DNI letter.\n3. Exit.")
     argument = int(input())
     switcher = {
         1: cal,
