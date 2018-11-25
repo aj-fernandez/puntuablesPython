@@ -2,7 +2,7 @@
 # @last_edited: 25/11/18
 # @repo: https://github.com/aj-fernandez/
 
-argument = 0
+#argument = 0
 
 def loadData():
 
@@ -49,7 +49,7 @@ def out():
     exit(0)
 
 def menu():
-    global argument
+    #global argument
     print("\n1. To generate a dictionary from file (LOAD DATA).\n2. To generate \
 a file from dictionary (SAVE DATA).\n3. Exit.")
     argument = int(input())
