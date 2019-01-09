@@ -5,6 +5,7 @@
 
 coded_msg = ""
 dcoded_msg = ""
+
 msg = input("\nType a message: ").upper()
 slider = int(input("\nEnter the value of key-slider: "))
 
