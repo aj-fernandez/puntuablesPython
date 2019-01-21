@@ -13,13 +13,13 @@ with open('intrusions') as src:
     # line = src.readlines() # Dont handle newline chars '\n'
     line = [line.rstrip('\n') for line in open('intrusions')]
 
-writer = csv.writer(open("report.csv", 'w'))
+report = csv.writer(open("report.csv", 'w'))
 
 for url in line:
     answer = requests.get(url)
     if answer.status_code != 200:
-        writer.writerow(['[-]',cnt,url,answer.status_code])
+        report.writerow(['[-]',cnt,url,answer.status_code])
         cnt += 1
     else:
-        writer.writerow(['[+]',cnt,url,answer.status_code])
+        report.writerow(['[+]',cnt,url,answer.status_code])
         cnt += 1
