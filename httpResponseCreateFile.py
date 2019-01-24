@@ -14,7 +14,7 @@ sites = ['http://www.youtube.com',
 'https://httpstat.us/413',
 'https://httpstat.us/302',
 'https://httpstat.us/400',
-'https://httpstat.us/500'
+'https://httpstat.us/500',
 ]
 cnt = 1
 
