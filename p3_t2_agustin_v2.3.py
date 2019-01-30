@@ -11,7 +11,7 @@ listClosed = [] # store closed ports
 
 remoteNode = input("Set a valid target [domain or ip]: ")
 startPort = int(input("Set a valid start port: "))
-endPort = int(input("Set a valid end port: "))
+endPort = int(input("Set a valid end port: "))+1
 target = socket.gethostbyname(remoteNode)
 print ("\n")
 
